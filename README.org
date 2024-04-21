@@ -16,7 +16,7 @@ When new versions of libraries appear, need to update a lot of project.clj and d
 
 Some goals:
 
-- Only include this starter library in genie scripts.
+- Only include this starter library in Genie scripts.
 - Updates to libraries only in this starter-library
 - Script automatically get the newest versions by using this starter.
 
@@ -129,7 +129,7 @@ lein deploy clojars
   :CUSTOM_ID: version-history
   :END:
 
-- 0.1.0-SNAPSHOT - First version, as as try-out for Genie scripts.
+- 0.1.0-SNAPSHOT - First version, as try-out for Genie scripts.
 
 * License
   :PROPERTIES:
