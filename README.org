@@ -1,0 +1,141 @@
+#+STARTUP: content indent
+#+title: starter
+* What
+ :PROPERTIES:
+ :CUSTOM_ID: what
+ :END:
+
+Clojure and Genie starter kit - containing up-to-date versions of most used libraries in (Genie) scripts and Clojure applications.
+
+* Why?
+  :PROPERTIES:
+  :CUSTOM_ID: why
+  :END:
+
+When new versions of libraries appear, need to update a lot of project.clj and deps.edn files. Also the versions might be conflicting, especially in a Genie process where many scripts can run.
+
+Some goals:
+
+- Only include this starter library in genie scripts.
+- Updates to libraries only in this starter-library
+- Script automatically get the newest versions by using this starter.
+
+* Installation
+  :PROPERTIES:
+  :CUSTOM_ID: installation
+  :END:
+
+Leiningen/Boot
+
+#+BEGIN_EXAMPLE
+  [ndevreeze/starter "0.1.0-SNAPSHOT"]
+#+END_EXAMPLE
+
+Clojure CLI/deps.edn
+
+#+BEGIN_EXAMPLE
+  ndevreeze/starter {:mvn/version "0.1.0-SNAPSHOT"}
+#+END_EXAMPLE
+
+[[https://clojars.org/ndevreeze/starter][https://img.shields.io/clojars/v/ndevreeze/starter.svg]]
+
+The SNAPSHOT is by design, so new versions will be added automatically. At some point it might be needed to freeze a version.
+* Usage
+  :PROPERTIES:
+  :CUSTOM_ID: usage
+  :END:
+
+Require:
+
+#+BEGIN_EXAMPLE
+  (ns my.namespace
+     (:require [ndevreeze.starter :as starter]))
+#+END_EXAMPLE
+
+Then require namespaces in the standard way.
+
+* Developing
+  :PROPERTIES:
+  :CUSTOM_ID: developing
+  :END:
+
+** Testing
+  :PROPERTIES:
+  :CUSTOM_ID: testing
+  :END:
+
+#+BEGIN_EXAMPLE
+  $ lein midje
+#+END_EXAMPLE
+
+or:
+
+#+BEGIN_EXAMPLE
+  $ lein repl (or start in Cider)
+  (use 'midje.repl)
+  (autotest)
+#+END_EXAMPLE
+
+** API Docs
+  :PROPERTIES:
+  :CUSTOM_ID: api-docs
+  :END:
+
+See codox generated
+[[https://ndevreeze.github.io/starter/api/index.html][API docs]] And cljdoc too: https://cljdoc.org/d/ndevreeze/starter/0.1.0-SNAPSHOT/api/ndevreeze
+
+(change the version and visit the cljdoc link to generate new docs for new version)
+
+Mostly not needed, just a few functions are available for checking if we have the right version.
+** Creating docs
+#+begin_src bash
+lein codox
+# commit and push to github
+# wait a few minutes for github to push to ndvreeze.github.io
+#+end_src
+
+Also build Clojars docs from the site: https://cljdoc.org/d/ndevreeze/starter/0.1.0-SNAPSHOT/doc/readme
+
+** Create a Github release
+
+https://github.com/ndevreeze/starter/releases/new
+
+Also create a tag for this release. Do a git pull to get tag locally after creating it online.
+** Publish to Clojars
+#+begin_src bash
+lein deploy clojars
+#+end_src
+
+** Bugs
+
+  :PROPERTIES:
+  :CUSTOM_ID: bugs
+  :END:
+
+- No known errors. Use Github issues if you want to report a bug.
+
+* Related and similar projects (libraries)
+  :PROPERTIES:
+  :CUSTOM_ID: related-and-similar-projects-libraries
+  :END:
+
+- https://github.com/pjlegato/onelog - used as a base for this library,
+  but some differences.
+- https://github.com/malcolmsparks/clj-logging-config - also used as a
+  base
+
+* Version history
+  :PROPERTIES:
+  :CUSTOM_ID: version-history
+  :END:
+
+- 0.1.0-SNAPSHOT - First version, as as try-out for Genie scripts.
+
+* License
+  :PROPERTIES:
+  :CUSTOM_ID: license
+  :END:
+
+Copyright © 2024 Nico de Vreeze.
+
+Distributed under the Eclipse Public License, the same as Clojure.
