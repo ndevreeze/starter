@@ -11,7 +11,7 @@
                  [clj-commons/fs "1.6.311"]
                  [commons-codec "1.17.0"]
                  [hiccup/hiccup "2.0.0-RC3"]
-                 [nrepl "1.1.1"]
+                 [nrepl "1.2.0"]
 
                  ;; 2024-04-21: make explicit because of confusing
                  ;; deps. Check periodically if it can be removed.
