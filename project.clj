@@ -16,6 +16,8 @@
                  ;; 2024-04-21: make explicit because of confusing
                  ;; deps. Check periodically if it can be removed.
                  [org.clojure/tools.reader "1.4.2"]
+                 [org.apache.commons/commons-compress "1.26.2"]
+                 [commons-io "2.16.1"]
 
                  ;; 2024-04-03: wrt time/interval, also needs threeten.
                  [clojure.java-time/clojure.java-time "1.4.2"]
