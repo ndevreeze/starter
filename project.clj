@@ -17,7 +17,7 @@
                  ;; deps. Check periodically if it can be removed.
                  [org.clojure/tools.reader "1.5.0"]
                  [org.apache.commons/commons-compress "1.27.1"]
-                 [commons-io "2.16.1"]
+                 [commons-io "2.17.0"]
 
                  ;; 2024-04-03: wrt time/interval, also needs threeten.
                  [clojure.java-time/clojure.java-time "1.4.2"]
