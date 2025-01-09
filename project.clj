@@ -9,9 +9,9 @@
                  [org.clojure/data.csv "1.1.0"]
                  [clj-commons/conch "0.9.2"]
                  [clj-commons/fs "1.6.311"]
-                 [commons-codec "1.17.1"]
+                 [commons-codec "1.17.2"]
                  [hiccup/hiccup "2.0.0-RC3"]
-                 [nrepl "1.3.0"]
+                 [nrepl "1.3.1"]
 
                  ;; 2024-04-21: make explicit because of confusing
                  ;; deps. Check periodically if it can be removed.
