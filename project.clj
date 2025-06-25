@@ -3,14 +3,14 @@
   :url "https://github.com/ndevreeze/starter"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
             :url "https://www.eclipse.org/legal/epl-2.0/"}
-  :dependencies [[org.clojure/clojure "1.12.0"]
+  :dependencies [[org.clojure/clojure "1.12.1"]
                  [org.clojure/tools.cli "1.1.230"]
                  [org.clojure/data.xml "0.0.8"]
                  [org.clojure/data.csv "1.1.0"]
                  [clj-commons/conch "0.9.2"]
                  [clj-commons/fs "1.6.311"]
                  [commons-codec "1.18.0"]
-                 [hiccup/hiccup "2.0.0-RC3"]
+                 [hiccup/hiccup "2.0.0"]
                  [nrepl "1.3.1"]
 
                  ;; 2024-04-21: make explicit because of confusing
