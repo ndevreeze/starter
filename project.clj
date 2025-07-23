@@ -9,7 +9,7 @@
                  [org.clojure/data.csv "1.1.0"]
                  [clj-commons/conch "0.9.2"]
                  [clj-commons/fs "1.6.311"]
-                 [commons-codec "1.18.0"]
+                 [commons-codec "1.19.0"]
                  [hiccup/hiccup "2.0.0"]
                  [nrepl "1.3.1"]
 
@@ -17,7 +17,7 @@
                  ;; deps. Check periodically if it can be removed.
                  [org.clojure/tools.reader "1.5.2"]
                  [org.apache.commons/commons-compress "1.27.1"]
-                 [commons-io "2.19.0"]
+                 [commons-io "2.20.0"]
 
                  ;; 2024-04-03: wrt time/interval, also needs threeten.
                  [clojure.java-time/clojure.java-time "1.4.3"]
