@@ -8,7 +8,7 @@
                  [org.clojure/data.xml "0.0.8"]
                  [org.clojure/data.csv "1.1.0"]
                  [clj-commons/conch "0.9.2"]
-                 [clj-commons/fs "1.6.311"]
+                 [clj-commons/fs "1.6.312"]
                  [commons-codec "1.19.0"]
                  [hiccup/hiccup "2.0.0"]
                  [nrepl "1.3.1"]
@@ -16,7 +16,7 @@
                  ;; 2024-04-21: make explicit because of confusing
                  ;; deps. Check periodically if it can be removed.
                  [org.clojure/tools.reader "1.5.2"]
-                 [org.apache.commons/commons-compress "1.27.1"]
+                 [org.apache.commons/commons-compress "1.28.0"]
                  [commons-io "2.20.0"]
 
                  ;; 2024-04-03: wrt time/interval, also needs threeten.
