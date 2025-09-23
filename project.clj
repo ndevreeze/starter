@@ -3,7 +3,7 @@
   :url "https://github.com/ndevreeze/starter"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
             :url "https://www.eclipse.org/legal/epl-2.0/"}
-  :dependencies [[org.clojure/clojure "1.12.1"]
+  :dependencies [[org.clojure/clojure "1.12.2"]
                  [org.clojure/tools.cli "1.1.230"]
                  [org.clojure/data.xml "0.0.8"]
                  [org.clojure/data.csv "1.1.0"]
@@ -11,7 +11,7 @@
                  [clj-commons/fs "1.6.312"]
                  [commons-codec "1.19.0"]
                  [hiccup/hiccup "2.0.0"]
-                 [nrepl "1.3.1"]
+                 [nrepl "1.4.0"]
 
                  ;; 2024-04-21: make explicit because of confusing
                  ;; deps. Check periodically if it can be removed.
