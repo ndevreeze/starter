@@ -4,18 +4,18 @@
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.12.4"]
-                 [org.clojure/tools.cli "1.2.245"]
+                 [org.clojure/tools.cli "1.3.250"]
                  [org.clojure/data.xml "0.0.8"]
-                 [org.clojure/data.csv "1.1.0"]
+                 [org.clojure/data.csv "1.1.1"]
                  [clj-commons/conch "0.9.2"]
                  [clj-commons/fs "1.6.312"]
                  [commons-codec "1.20.0"]
                  [hiccup/hiccup "2.0.0"]
-                 [nrepl "1.5.1"]
+                 [nrepl "1.5.2"]
 
                  ;; 2024-04-21: make explicit because of confusing
                  ;; deps. Check periodically if it can be removed.
-                 [org.clojure/tools.reader "1.5.2"]
+                 [org.clojure/tools.reader "1.6.0"]
                  [org.apache.commons/commons-compress "1.28.0"]
                  [commons-io "2.21.0"]
 
