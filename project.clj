@@ -9,7 +9,7 @@
                  [org.clojure/data.csv "1.1.1"]
                  [clj-commons/conch "0.9.2"]
                  [clj-commons/fs "1.6.312"]
-                 [commons-codec "1.20.0"]
+                 [commons-codec "1.21.0"]
                  [hiccup/hiccup "2.0.0"]
                  [nrepl "1.5.2"]
 
