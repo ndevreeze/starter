@@ -11,13 +11,13 @@
                  [clj-commons/fs "1.6.312"]
                  [commons-codec "1.21.0"]
                  [hiccup/hiccup "2.0.0"]
-                 [nrepl "1.6.0"]
+                 [nrepl "1.7.0"]
 
                  ;; 2024-04-21: make explicit because of confusing
                  ;; deps. Check periodically if it can be removed.
                  [org.clojure/tools.reader "1.6.0"]
                  [org.apache.commons/commons-compress "1.28.0"]
-                 [commons-io "2.21.0"]
+                 [commons-io "2.22.0"]
 
                  ;; 2024-04-03: wrt time/interval, also needs threeten.
                  [clojure.java-time/clojure.java-time "1.4.3"]
