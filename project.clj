@@ -21,7 +21,7 @@
 
                  ;; 2024-04-03: wrt time/interval, also needs threeten.
                  [clojure.java-time/clojure.java-time "1.4.3"]
-                 [org.threeten/threeten-extra "1.8.0"]
+                 [org.threeten/threeten-extra "1.10.0"]
 
                  ;; own libraries
                  [ndevreeze/cmdline "0.2.0"]
