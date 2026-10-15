@@ -9,9 +9,9 @@
                  [org.clojure/data.csv "1.1.1"]
                  [clj-commons/conch "0.9.2"]
                  [clj-commons/fs "1.6.312"]
-                 [commons-codec "1.22.1"]
+                 [commons-codec "1.23.0"]
                  [hiccup/hiccup "2.0.0"]
-                 [nrepl "1.7.0"]
+                 [nrepl "1.8.0"]
 
                  ;; 2024-04-21: make explicit because of confusing
                  ;; deps. Check periodically if it can be removed.
@@ -21,7 +21,7 @@
 
                  ;; 2024-04-03: wrt time/interval, also needs threeten.
                  [clojure.java-time/clojure.java-time "1.4.3"]
-                 [org.threeten/threeten-extra "1.10.0"]
+                 [org.threeten/threeten-extra "1.11.0"]
 
                  ;; own libraries
                  [ndevreeze/cmdline "0.2.0"]
