@@ -25,8 +25,8 @@
 
                  ;; own libraries
                  [ndevreeze/cmdline "0.2.0"]
-                 [ndevreeze/excel "0.3.2-SNAPSHOT"]
-                 [ndevreeze/flexdb "0.4.2-SNAPSHOT"]
+                 [ndevreeze/excel "0.3.2"]
+                 [ndevreeze/flexdb "0.4.2"]
                  [ndevreeze/logger "0.6.2"]
 
                  ;; some older libraries to be moved and made public.
