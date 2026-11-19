@@ -1,4 +1,4 @@
-(defproject ndevreeze/starter "0.1.0-SNAPSHOT"
+(defproject com.github.ndevreeze/starter "0.1.0-SNAPSHOT"
   :description "Clojure Genie starter library"
   :url "https://github.com/ndevreeze/starter"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
@@ -47,5 +47,6 @@
    :metadata {:doc/format :markdown}
    :source-uri "https://github.com/ndevreeze/starter/blob/master/{filepath}#L{line}"}
 
+  ;; 2026-11-19: even weg: :creds :gpg
   :repositories [["releases" {:url "https://clojars.org/repo/"
-                              :creds :gpg}]])
+                              }]])
